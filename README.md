@@ -43,9 +43,13 @@ Run all cells in the notebook to launch the search interface.
 
 ## Technical Details
 Dataset: 24,063 perfumes from Fragrantica (Kaggle)
+
 Synthetic queries: Qwen2.5-7B-Instruct
+
 Base model: sentence-transformers/all-MiniLM-L6-v2
+
 Loss: MultipleNegativesRankingLoss
+
 Inference: Pre-computed embeddings + cosine similarity
 
 *Built as a final project for Virginia Tech CS 5804 – Machine Learning (Fall 2025)*
