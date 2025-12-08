@@ -1,11 +1,10 @@
 # 🌸 fragranceBERT
 **Semantic Fragrance Search**  
+
 Search 24,000+ fragrances the way you actually think about scent.
 
-**Try the Demo** → https://huggingface.co/spaces/aali11/fragranceBERT
-
+Try the Demo : https://huggingface.co/spaces/aali11/fragranceBERT
 ![demo](https://huggingface.co/spaces/aali11/fragranceBERT/resolve/main/demo.gif)  
-
 ## What is fragranceBERT?
 A perfume search engine that understands how people actually describe scents.
 
@@ -45,4 +44,4 @@ Base model: sentence-transformers/all-MiniLM-L6-v2
 Loss: MultipleNegativesRankingLoss
 Inference: Pre-computed embeddings + cosine similarity
 
-Built as a final project for Virginia Tech CS 5804 – Machine Learning (Fall 2025)
+**Built as a final project for Virginia Tech CS 5804 – Machine Learning (Fall 2025)**
