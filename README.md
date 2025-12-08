@@ -31,9 +31,13 @@ Powered by a fine-tuned Sentence-BERT model trained on 10,000 synthetic natural-
 
 ## Quick Start
 git clone https://github.com/aali11/fragranceBERT.git
+
 cd fragranceBERT/notebooks
+
 pip install sentence-transformers gradio numpy pandas scikit-learn
+
 jupyter notebook gradio_demo.ipynb
+
 Run all cells in the notebook to launch the search interface.
 
 
@@ -44,4 +48,4 @@ Base model: sentence-transformers/all-MiniLM-L6-v2
 Loss: MultipleNegativesRankingLoss
 Inference: Pre-computed embeddings + cosine similarity
 
-**Built as a final project for Virginia Tech CS 5804 – Machine Learning (Fall 2025)**
+*Built as a final project for Virginia Tech CS 5804 – Machine Learning (Fall 2025)*
